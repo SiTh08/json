@@ -16,6 +16,10 @@ request_postcode = requests.get('http://api.postcodes.io/postcodes/IG12TP')
 # print(request_postcode.content)
 print(request_postcode.json())
 print(request_postcode.json()['result']['postcode'])
+print(request_postcode.json()['result']['country'])
+print(request_postcode.json()['result']['nhs_ha'])
+
+
 
 
 
