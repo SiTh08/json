@@ -19,9 +19,9 @@ print(randrange(10, 44))
 # check the documentation for more
 # https://docs.python.org/3/library/random.html
 
-
+print('///////////////////////MATHS///////////////////////////')
+time.sleep(2)
 num = 24.64
-
 print(math.ceil(num))
 time.sleep(0.31)
 print(math.floor(num))
